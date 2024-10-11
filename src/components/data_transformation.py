@@ -12,6 +12,9 @@ from src.exception import CustomException
 from src.logger import logging
 import os
 
+from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
+
 from src.utils import save_object
 
 @dataclass
